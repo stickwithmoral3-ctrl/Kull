@@ -1,4 +1,4 @@
-status = int(input("Enter status (0-Single, 1-Married jointly, 2-Married separately, 3-Head of household): "))
+status = int(input("Enter filing status (0-3): "))
 income = float(input("Enter taxable income: "))
 
 tax = 0
