@@ -59,4 +59,4 @@ elif status == 3:
     else:
         tax = 104892.50 + (income - 372950) * 0.35
 
-print("Tax: $" + str(tax))
+print(f"Your total tax is: ${tax:.2f}")
